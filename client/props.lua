@@ -71,7 +71,7 @@ RegisterNetEvent('qb-simplefarming:slaughter1', function()
     if hasItem then
       if DoesEntityExist(pedcow) then
         TriggerEvent('animations:client:EmoteCommandStart', {"Boxing2"})
-        QBCore.Functions.Progressbar('killing_cow', Config.Alerts['killing_cow'], 12000, false, true, { -- Name | Label | Time | useWhileDead | canCancel
+        QBCore.Functions.Progressbar('killing_cow', Config.Alerts['killing_cow'], 4000, false, true, { -- Name | Label | Time | useWhileDead | canCancel
           disableMovement = true,
           disableCarMovement = true,
           disableMouse = false,
@@ -100,7 +100,7 @@ RegisterNetEvent('qb-simplefarming:slaughter2', function()
     if hasItem then
       if DoesEntityExist(pedcow1) then
         TriggerEvent('animations:client:EmoteCommandStart', {"Boxing2"})
-        QBCore.Functions.Progressbar('killing_cow', Config.Alerts['killing_cow'], 500, false, true, { -- Name | Label | Time | useWhileDead | canCancel
+        QBCore.Functions.Progressbar('killing_cow', Config.Alerts['killing_cow'], 4000, false, true, { -- Name | Label | Time | useWhileDead | canCancel
           disableMovement = true,
           disableCarMovement = true,
           disableMouse = false,
@@ -129,7 +129,7 @@ RegisterNetEvent('qb-simplefarming:slaughter3', function()
     if hasItem then
       if DoesEntityExist(pedcow2) then
         TriggerEvent('animations:client:EmoteCommandStart', {"Boxing2"})
-        QBCore.Functions.Progressbar('killing_cow', Config.Alerts['killing_cow'], 500, false, true, {
+        QBCore.Functions.Progressbar('killing_cow', Config.Alerts['killing_cow'], 4000, false, true, {
           disableMovement = true,
           disableCarMovement = true,
           disableMouse = false,
@@ -157,7 +157,7 @@ RegisterNetEvent('qb-simplefarming:slaughter4', function()
     if hasItem then
       if DoesEntityExist(pedcow3) then
         TriggerEvent('animations:client:EmoteCommandStart', {"Boxing2"})
-        QBCore.Functions.Progressbar('killing_cow', Config.Alerts['killing_cow'], 5000, false, true, {
+        QBCore.Functions.Progressbar('killing_cow', Config.Alerts['killing_cow'], 4000, false, true, {
           disableMovement = true,
           disableCarMovement = true,
           disableMouse = false,
